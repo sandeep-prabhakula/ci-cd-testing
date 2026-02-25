@@ -10,4 +10,9 @@ public class TestController {
     public String getHello(){
         return "Helo world";
     }
+
+    @GetMapping("/getData")
+    public String getData(){
+        return "Data";
+    }
 }
